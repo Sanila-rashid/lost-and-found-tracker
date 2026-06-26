@@ -11,46 +11,21 @@ A full-stack Lost & Found web application that helps users report, search, and r
 * View item details
 * Claim/recover items system (if implemented)
 
-## Tech Stack
+##  Tech Stack
 
-* React (Frontend)
-* Node.js (Backend)
-* Express.js
-* MongoDB
-* REST API
+- **Backend:** PHP (index.php, login.php, register.php, etc.)
+- **Frontend:** HTML (embedded within PHP pages)
+- **Styling:** CSS (style.css)
+- **Client-side Logic:** JavaScript (main.js)
+- **Database:** SQL (handled via init_db.php and db.php)
 
-## Installation
+## ⚙️ Installation
 
-### Clone Repository
+### 1. Clone Repository
 
-```bash id="c9k3aa"
+```bash
 git clone https://github.com/Sanila-rashid/lost-and-found-tracker.git
-```
-
-### Backend Setup
-
-```bash id="p2k9lf"
-cd backend
-npm install
-npm start
-```
-
-### Frontend Setup
-
-```bash id="q7n2bb"
-cd frontend
-npm install
-npm run dev
-```
-
-## Environment Variables
-
-Create a `.env` file in backend:
-
-```env id="env123"
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+cd lost-and-found-tracker
 ```
 
 ## Project Structure
