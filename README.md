@@ -27,8 +27,9 @@ A full-stack Lost & Found web application that helps users report, search, and r
 git clone https://github.com/Sanila-rashid/lost-and-found-tracker.git
 cd lost-and-found-tracker
 ```
-##  Project Structure
+## 📁 Project Structure
 
+This project follows a PHP-based structure:
 lost-and-found-tracker/
 ├── index.php
 ├── login.php
