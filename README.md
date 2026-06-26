@@ -29,7 +29,6 @@ cd lost-and-found-tracker
 ```
 ##  Project Structure
 
-This project follows a PHP-based structure:
 lost-and-found-tracker/
 ├── index.php
 ├── login.php
@@ -40,9 +39,9 @@ lost-and-found-tracker/
 ├── admin/
 ├── includes/
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── js/
-│ └── main.js
+│   └── main.js
 ├── uploads/
 ├── db.php
 ├── init_db.php
