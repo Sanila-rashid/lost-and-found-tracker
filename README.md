@@ -9,15 +9,15 @@ A full-stack Lost & Found web application that helps users report, search, and r
 * Browse all listed items
 * Search and filter items
 * View item details
-* Claim/recover items system (if implemented)
+* Claim/recover items system (planned or optional if not fully implemented)
 
-##  Tech Stack
+## Tech Stack
 
-- **Backend:** PHP (index.php, login.php, register.php, etc.)
-- **Frontend:** HTML (embedded within PHP pages)
-- **Styling:** CSS (style.css)
-- **Client-side Logic:** JavaScript (main.js)
-- **Database:** SQL (handled via init_db.php and db.php)
+* **Backend:** PHP (index.php, login.php, register.php, etc.)
+* **Frontend:** HTML (embedded within PHP pages)
+* **Styling:** CSS (style.css)
+* **Client-side Logic:** JavaScript (main.js)
+* **Database:** SQL (handled via init_db.php and db.php)
 
 ## ⚙️ Installation
 
@@ -27,24 +27,27 @@ A full-stack Lost & Found web application that helps users report, search, and r
 git clone https://github.com/Sanila-rashid/lost-and-found-tracker.git
 cd lost-and-found-tracker
 ```
+##Project Structure
 
-## Project Structure
+This project follows a PHP-based structure:
 
-```text id="structure1"
 lost-and-found-tracker/
-├── frontend/
-├── backend/
-├── README.md
-```
+├── index.php
+├── login.php
+├── register.php
+├── dashboard.php
+├── report.php
+├── search.php
+├── admin/
+├── includes/
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── uploads/
+├── db.php
+├── init_db.php
+└── README.md
 
-## Future Improvements
-
-* Real-time notifications
-* Image upload for items
-* Chat between finder and owner
-* Map-based location tracking
-* Admin dashboard
-
-## Author
-
+## Author 
 **Sanila Rashid**
