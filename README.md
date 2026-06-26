@@ -31,6 +31,7 @@ cd lost-and-found-tracker
 
 This project follows a PHP-based structure:
 lost-and-found-tracker/
+
 ├── index.php
 ├── login.php
 ├── register.php
